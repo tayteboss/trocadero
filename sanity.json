@@ -26,11 +26,11 @@
     },
     {
       "implements": "part:@sanity/base/theme/variables/override-style",
-      "path": "./studioTheme/variableOverrides.css"
+      "path": "./theme/variableOverrides.css"
     },
     {
       "implements": "part:@sanity/base/brand-logo",
-      "path": "studioTheme/logo.js"
+      "path": "theme/logo.js"
     }
   ]
 }
