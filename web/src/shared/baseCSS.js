@@ -1,6 +1,6 @@
-import { createGlobalStyle } from "styled-components"
-import theme from "./theme"
-import studioPro from "../assets/fonts/StudioPro-Regular.woff"
+import { createGlobalStyle } from 'styled-components'
+import theme from './theme'
+import studioPro from '../assets/fonts/StudioPro-Regular.woff'
 
 const GlobalStyle = createGlobalStyle`
     @font-face {
