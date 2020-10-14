@@ -16,6 +16,8 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@sanity/block-content-to-react": "^2.0.7",
+    "@sanity/image-url": "^0.140.19",
     "dotenv": "^8.2.0",
     "gatsby": "^2.24.67",
     "gatsby-plugin-react-helmet": "^3.3.13",
