@@ -12,5 +12,7 @@ module.exports = {
         watchMode: true,
       },
     },
+    'gatsby-transformer-sharp', 
+    'gatsby-plugin-sharp'
   ],
 };
