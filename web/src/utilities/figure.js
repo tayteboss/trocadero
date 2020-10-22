@@ -4,7 +4,7 @@ import urlFor from './urlFor';
 export default ({ node }) => {
   return (
     <figure>
-        <img src={urlFor(node.image.asset)} alt={node.alt} />
+        <img src={urlFor(node.image.asset._ref)} alt={node.alt} />
     </figure>
   )
 }
