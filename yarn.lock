@@ -813,6 +813,12 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.11.2":
+  version "7.12.1"
+  resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.12.1.tgz#b4116a6b6711d010b2dad3b7b6e43bf1b9954740"
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.10.4":
   version "7.10.4"
   resolved "https://registry.npmjs.org/@babel/template/-/template-7.10.4.tgz#3251996c4200ebc71d1a8fc405fba940f36ba278"
@@ -3936,6 +3942,14 @@ functions-have-names@^1.2.0:
   version "1.2.1"
   resolved "https://registry.npmjs.org/functions-have-names/-/functions-have-names-1.2.1.tgz#a981ac397fa0c9964551402cdc5533d7a4d52f91"
 
+gatsby-image@^2.4.21:
+  version "2.4.21"
+  resolved "https://registry.npmjs.org/gatsby-image/-/gatsby-image-2.4.21.tgz#14032912242eca6a21929eb972d12fefebb355d5"
+  dependencies:
+    "@babel/runtime" "^7.11.2"
+    object-fit-images "^3.2.4"
+    prop-types "^15.7.2"
+
 generic-names@^1.0.1:
   version "1.0.3"
   resolved "https://registry.npmjs.org/generic-names/-/generic-names-1.0.3.tgz#2d786a121aee508876796939e8e3bff836c20917"
@@ -5548,6 +5562,10 @@ object-copy@^0.1.0:
     copy-descriptor "^0.1.0"
     define-property "^0.2.5"
     kind-of "^3.0.3"
+
+object-fit-images@^3.2.4:
+  version "3.2.4"
+  resolved "https://registry.npmjs.org/object-fit-images/-/object-fit-images-3.2.4.tgz#6c299d38fdf207746e5d2d46c2877f6f25d15b52"
 
 object-inspect@^1.6.0, object-inspect@^1.7.0, object-inspect@^1.8.0:
   version "1.8.0"

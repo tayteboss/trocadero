@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 
 const PrimaryButtonStyle = css`
-  color: ${props => props.theme.colours.red};
+  color: ${props => props.theme.colours.lightGray};
   background-color: ${props => props.theme.colours.salmon};
   &:active {
     color: ${props => props.theme.colours.white};

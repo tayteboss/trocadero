@@ -1,11 +1,21 @@
 import createSchema from 'part:@sanity/base/schema-creator';
 import schemaTypes from 'all:part:@sanity/base/schema-type';
 
-import post from './post';
-import richText from './richText';
-import figure from './figure';
+import post from './documents/post';
+import richText from './array/richText';
+import figure from './objects/figure';
+import page from './documents/page';
+import album from './documents/album';
 
 export default createSchema({
   name: 'default',
-  types: schemaTypes.concat([post, richText, figure]),
+  types: schemaTypes.concat(
+    [
+      post, 
+      richText, 
+      figure,
+      page,
+      album,
+    ]
+  ),
 });

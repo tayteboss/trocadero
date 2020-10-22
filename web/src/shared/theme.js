@@ -4,8 +4,7 @@ const Theme = {
     default: { light: '#595959', dark: '#1E1E1E', hover: '#D8D8D8' },
     primary: { light: '#EA2C2E', dark: '#e6e6e6', shallow: '#F8A99F' },
     overlay: 'rgba(0, 0, 0, 0.6)',
-    red: '#f00',
-    orange: '#ED2924',
+    lightGray: '#595959',
     salmon: '#F8A99F',
   },
   fonts: {

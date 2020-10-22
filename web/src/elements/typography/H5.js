@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 const H5 = styled.h5`
-    color: ${props => props.secondary ? props.theme.colours.salmon : props.theme.colours.red};
+    color: ${props => props.secondary ? props.theme.colours.salmon : props.theme.colours.lightGray};
     font-family: ${props => props.theme.fonts.studioPro};
     font-size: ${props => props.theme.size.h5};
     margin: 0 0 24px 0;
