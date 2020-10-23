@@ -1,8 +1,8 @@
 import React from 'react';
 import { graphql } from 'gatsby'
 import H2 from '../../elements/typography/H2';
-import PortableText from '../../utilities/portableText';
-import Figure from '../../utilities/figure';
+import PortableText from '../../utilities/PortableText';
+import Figure from '../../utilities/Figure';
 
 const Post = ({ data }) => {
   console.log('data', data);

@@ -4,6 +4,11 @@ export default {
   title: 'Pages',
   fields: [
     {
+      name: 'pageId',
+      type: 'string',
+      title: 'Page ID'
+    },
+    {
       name: 'title',
       type: 'string',
       title: 'Title'
