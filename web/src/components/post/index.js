@@ -5,7 +5,6 @@ import PortableText from '../../utilities/PortableText';
 import Figure from '../../utilities/Figure';
 
 const Post = ({ data }) => {
-  console.log('data', data);
   return (
     <>
       <H2>{data.title}</H2>

@@ -15,8 +15,6 @@ const App = ({ data }) => {
         components,
     } = data.allSanityPage.edges[0].node
 
-    console.log('data', data.allSanityPage);
-
     return (
         <>
           <ThemeProvider theme={Theme}>
