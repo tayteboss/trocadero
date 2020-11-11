@@ -10,7 +10,7 @@ const Theme = {
   fonts: {
     studioPro: 'StudioPro-Regular',
   },
-  size: {
+  desktopFontSizes: {
     small: '12px',
     p: '14px',
     h6: '18px',
@@ -19,6 +19,16 @@ const Theme = {
     h3: '32px',
     h2: '36px',
     h1: '56px',
+  },
+  mobFontSizes: {
+    small: '6px',
+    p: '8px',
+    h6: '10px',
+    h5: '12px',
+    h4: '16px',
+    h3: '20px',
+    h2: '24px',
+    h1: '30px',
   },
   commonCSS: {
     rounded: '3px',
